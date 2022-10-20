@@ -1,0 +1,40 @@
+.body-content14{
+    background-color: rgb(1, 1, 1);
+    height: 15rem;
+    margin-top: 20rem;
+    padding:0 10rem;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.body-content14 div{
+    padding-bottom: 2rem;
+}
+
+.body-content14>.info-task{
+    text-align: center;
+}
+
+.body-content14>.info-task ul{
+    display: flex;
+    color: white;
+    list-style: none;
+    justify-content: center;
+}
+
+.body-content14>.info-task li{
+    padding-left: 3rem;
+}
+
+.body-content14>.info-task ul li a{
+    color: white;
+}
+
+.body-content14>.info-task ul li a iconify-icon{
+    font-size: 1.8rem;
+}
+
+.body-content14>.info-task ul li a:hover{
+    color: var(--primary-color);
+    transition: 1s;
+}

@@ -1,0 +1,31 @@
+/*Body content3*/
+
+.body-content3{
+    display: flex;
+    height: 20rem;
+}
+
+.body-content3>.row{
+    width: 33.3%;
+    padding: 5rem;
+    color: #FFF;
+}
+
+.body-content3 div h3{
+    letter-spacing: 1px;
+    padding-bottom: 2.5rem;
+    font-size: 2rem;
+}
+
+
+.body-content3>.bgcolor1{
+    background-color: #ad00ff;
+}
+
+.body-content3>.bgcolor2{
+    background-color: #8200bf;
+}
+
+.body-content3>.bgcolor3{
+    background-color: #56007f;
+}

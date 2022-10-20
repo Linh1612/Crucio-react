@@ -1,0 +1,274 @@
+.body-content8{
+    height: 56rem;
+    text-align: center;
+}
+
+.body-content8>.text-center h2{
+    padding-top: 12.5rem;
+    letter-spacing: 5px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+.body-content8>.text-center hr{
+    width: 3rem;
+    height: 3px;
+    margin: 0 auto;
+    background-color: rgb(173, 0, 255);
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.body-content8>.taskbar{
+    padding-bottom: 1rem;
+}
+
+.body-content8>.taskbar > ul{
+    list-style: none;
+}
+
+.body-content8>.taskbar > ul > li{
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.body-content8>.taskbar > ul > li > a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.body-content8>.works{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.body-content8>.works>.work-1{
+    width: 25%;
+    overflow: hidden;
+}
+
+
+.body-content8>.works>.work-1>.bg-1{
+    width: 100%;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg");
+    background-size: cover;
+}
+
+.work-info{
+    padding-top: 5rem;
+    background-color: var(--primary-color);
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    color: white;
+
+}
+
+.work-info> p{
+    padding-bottom: 5rem;
+}
+
+.body-content8>.works>.work-1>.bg-1:hover .work-info,
+.body-content8>.works>.work-1>.bg-1:focus .work-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-1>.bg-1:hover{
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-2{
+    width: 25%;
+    overflow: hidden;
+}
+
+
+.body-content8>.works>.work-2>.bg-2{
+    width: 100%;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work2.jpg");
+    background-size: cover;
+}
+
+.body-content8>.works>.work-2>.bg-2:hover .work-info,
+.body-content8>.works>.work-2>.bg-2:focus .work-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-2>.bg-2:hover{
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-3{
+    width: 25%;
+    overflow: hidden;
+}
+
+
+.body-content8>.works>.work-3>.bg-3{
+    width: 100%;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work3.jpg");
+    background-size: cover;
+}
+
+.body-content8>.works>.work-3>.bg-3:hover .work-info,
+.body-content8>.works>.work-3>.bg-3:focus .work-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-3>.bg-3:hover{
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-4{
+    width: 25%;
+    overflow: hidden;
+}
+
+
+.body-content8>.works>.work-4>.bg-4{
+    width: 100%;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work4.jpg");
+    background-size: cover;
+}
+
+.body-content8>.works>.work-4>.bg-4:hover .work-info,
+.body-content8>.works>.work-4>.bg-4:focus .work-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-4>.bg-4:hover{
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-5{
+    width: 25%;
+    overflow: hidden;
+}
+
+
+.body-content8>.works>.work-5>.bg-5{
+    width: 100%;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work5.jpg");
+    background-size: cover;
+}
+
+.body-content8>.works>.work-5>.bg-5:hover .work-info,
+.body-content8>.works>.work-5>.bg-5:focus .work-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-5>.bg-5:hover{
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-6{
+    width: 25%;
+    overflow: hidden;
+}
+
+
+.body-content8>.works>.work-6>.bg-6{
+    width: 100%;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work6.jpg");
+    background-size: cover;
+}
+
+.body-content8>.works>.work-6>.bg-6:hover .work-info,
+.body-content8>.works>.work-6>.bg-6:focus .work-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-6>.bg-6:hover{
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-7{
+    width: 25%;
+    overflow: hidden;
+}
+
+
+.body-content8>.works>.work-7>.bg-7{
+    width: 100%;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work7.jpg");
+    background-size: cover;
+}
+
+.body-content8>.works>.work-7>.bg-7:hover .work-info,
+.body-content8>.works>.work-7>.bg-7:focus .work-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-7>.bg-7:hover{
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-8{
+    width: 25%;
+    overflow: hidden;
+}
+
+
+.body-content8>.works>.work-8>.bg-8{
+    width: 100%;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work8.jpg");
+    background-size: cover;
+}
+
+.body-content8>.works>.work-8>.bg-8:hover .work-info,
+.body-content8>.works>.work-8>.bg-8:focus .work-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-8>.bg-8:hover{
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.bg-btn{
+    background-color: var(--light-color);
+    height: 10rem;
+    padding-top: 3.5rem;
+}
+
+.body-content8>.bg-btn>.btn{
+    border-radius: 0;
+    padding: 0.75rem 2rem;
+    color: black;
+    background-color: var(--light-color);
+    border: 3px solid black;
+    letter-spacing: 3px;
+    font-size: 1rem;
+}
+
+.body-content8>.bg-btn>.btn:hover{
+    color: white;
+    background-color: black;
+}

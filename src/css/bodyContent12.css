@@ -1,0 +1,22 @@
+.body-content12{
+    height: 12.5rem;
+    background-color: var(--light-color);
+}
+
+.body-content12>.img-logo{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem 10rem;
+}
+
+.body-content12>.img-logo img{
+    width: 5rem;
+    height: 4rem;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.body-content12>.img-logo img:hover{
+    opacity: 1;
+    transition: 1s;
+}

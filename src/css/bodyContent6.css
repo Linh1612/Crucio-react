@@ -1,0 +1,92 @@
+.body-content6{
+    height: 60rem;
+    text-align: center;
+}
+
+.body-content6>.text-center h2{
+    padding-top: 12.5rem;
+    letter-spacing: 5px;
+    font-family: "Open Sans",sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    padding-bottom: 1rem;
+}
+
+.body-content6>.text-center hr{
+    width: 3rem;
+    height: 3px;
+    margin: 0 auto;
+    background-color: rgb(173, 0, 255);
+    border: none;
+    margin-bottom: 2rem;
+}
+
+.body-content6>.team{
+    display: flex;
+    padding: 0 15rem;
+}
+
+.body-content6>.team>.bg-1{
+    width: 33.3%;
+    height: 25rem;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/team1.jpg");
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.body-content6>.team>.bg-2{
+    width: 33.3%;
+    height: 25rem;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/team2.jpg");
+    max-width: 400px;
+    max-height: 600px;
+    margin:0 5rem;
+}
+
+.body-content6>.team>.bg-3{
+    width: 33.3%;
+    height: 25rem;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/team3.jpg");
+    max-width: 400px;
+    max-height: 600px;
+}
+
+.person-info{
+    padding-top: 10rem;
+    background-color: var(--primary-color);
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    color: white;
+}
+
+.person-info> p{
+    padding-bottom: 2rem;
+}
+
+.person-info>.info > ul{
+    list-style: none;
+}
+
+.person-info>.info > ul > li{
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.body-content6>.team>.bg-1:hover .person-info,
+.body-content6>.team>.bg-1:focus .person-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+}
+
+.body-content6>.team>.bg-2:hover .person-info,
+.body-content6>.team>.bg-2:focus .person-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+}
+
+.body-content6>.team>.bg-3:hover .person-info,
+.body-content6>.team>.bg-3:focus .person-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+}

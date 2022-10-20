@@ -1,0 +1,20 @@
+.body-content7{
+    height: 25rem;
+    background-color: var(--primary-color);
+    padding: 10rem;
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    display: flex;
+}
+
+.body-content7>.parameter{
+    width: 25%;
+}
+
+.body-content7>.parameter h3{
+    padding-bottom: 2rem;
+    font-size: 3rem;
+    font-weight: 400;
+}

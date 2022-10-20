@@ -1,0 +1,12 @@
+* {
+    padding :0;
+    margin : 0;
+    box-sizing: border-box;
+    font-family : Helvetica, Arial, 'Times New Romand';
+}
+
+:root{
+    --primary-color: #ad00ff;
+    --text-color: #777;
+    --light-color: #F7F7F7;
+}
