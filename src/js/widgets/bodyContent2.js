@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BodyContent2(){
     return(
-        <div className="body-content2">
+        <div id="about" className="body-content2">
             <div>
                 <h2>WELCOME TO <strong className="color">CRUCIO</strong></h2>
                 <h3>WE CREATE AWESOME WEBSITES</h3>

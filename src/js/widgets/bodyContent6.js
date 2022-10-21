@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BodyContent6(){
     return(
-        <div className="body-content6">
+        <div id="team" className="body-content6">
             <div className="text-center">
                 <h2>OUR TEAM</h2>
                 <hr/>
@@ -65,7 +65,7 @@ const content6Items = [
        "id":62,
        "parent": "bg-2",
        "father": "person-info",
-       "Name": "PAMELA K.",
+       "name": "PAMELA K.",
        "role": "Designer",
        "children": "info",
        "icon1": "bxl:facebook-square",
@@ -77,7 +77,7 @@ const content6Items = [
        "id":63,
        "parent": "bg-3",
        "father": "person-info",
-       "Name": "MICHEAL J.",
+       "name": "MICHEAL J.",
        "role": "Planner",
        "children": "info",
        "icon1": "bxl:facebook-square",

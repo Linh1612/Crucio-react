@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BodyContent4(){
     return(
-        <div className="body-content4">
+        <div id="services" className="body-content4">
             <div className="text-center">
 					<h2>SERVICES</h2>
 					<hr/>

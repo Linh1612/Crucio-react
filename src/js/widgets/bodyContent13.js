@@ -2,7 +2,7 @@ import React from "react";
 
 export default function BodyContent13() {
     return (
-        <div className="body-content13">
+        <div id="contact" className="body-content13">
             <div className="text-center">
                 <h2>CONTACT</h2>
                 <hr/>

@@ -35,3 +35,20 @@
     font-size: 40px;
     font-weight: 200;
 }
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border: solid var(--primary-color);
+    border-width: 0 4px 4px 0;
+    margin-left: 48%;
+    transform: rotate(225deg);
+    cursor: pointer;
+    background-color: transparent !important;
+}
+
+.arrow:hover{
+    border-color:purple;
+    transition: 1s;
+}

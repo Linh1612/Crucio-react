@@ -24,6 +24,7 @@
 .body-content6>.team{
     display: flex;
     padding: 0 15rem;
+    justify-content: space-around;
 }
 
 .body-content6>.team>.bg-1{
