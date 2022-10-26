@@ -27,7 +27,9 @@ export default function Header(){
                             <a className="nav-link" href="#portfolio">PORTFOLIO</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#blog">BLOG</a>
+                            <a className="nav-link" 
+                            href="https://preview.themeforest.net/item/crucio-responsive-one-page-wordpress-theme/full_screen_preview/19973422">
+                            BLOG</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#contact">CONTACT</a>

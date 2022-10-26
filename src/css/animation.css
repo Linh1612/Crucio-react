@@ -1,0 +1,246 @@
+.leftToCenter{
+    animation: leftToCenter ease-in-out 2s forwards;
+}
+
+@keyframes leftToCenter{
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    100% { 
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.rightToCenter{
+    animation: rightToCenter ease-in-out 2s forwards;
+}
+
+@keyframes rightToCenter{
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+
+    100% { 
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.bottomToTop{
+    animation: bottomToTop ease-in-out 2s forwards;
+}
+
+@keyframes bottomToTop{
+    0% {
+        opacity: 0;
+        transform: translateY(50%);
+    }
+    100% { 
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+.topToBottom{
+    animation: bottomToTop ease-in-out 2s forwards;
+}
+
+@keyframes topToBottom{
+    0% {
+        opacity: 0;
+        transform: translateY(-50%);
+    }
+    100% { 
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+@keyframes numberCounters1{
+    0% {
+        counter-increment: count 0;
+    }
+    10% {
+        counter-increment: count 15;
+    }
+    20% {
+        counter-increment: count 30;
+    }
+    30% {
+        counter-increment: count 45;
+    }
+    40% {
+        counter-increment: count 60;
+    }
+    50% {
+        counter-increment: count 75;
+    }
+    60% {
+        counter-increment: count 90;
+    }
+    70% {
+        counter-increment: count 105;
+    }
+    80% {
+        counter-increment: count 130;
+    }
+    90% {
+        counter-increment: count 135;
+    }
+    100% { 
+        counter-increment: count 150;
+    }
+}
+
+.count1::after{
+        content: counter(count);
+        animation: numberCounters1 ease-in-out 0.5s 3 forwards;
+        counter-reset: count 0;
+}
+
+@keyframes numberCounters2{
+    0% {
+        counter-increment: count 0;
+    }
+    10% {
+        counter-increment: count 62;
+    }
+    20% {
+        counter-increment: count 124;
+    }
+    30% {
+        counter-increment: count 186;
+    }
+    40% {
+        counter-increment: count 248;
+    }
+    50% {
+        counter-increment: count 310;
+    }
+    60% {
+        counter-increment: count 372;
+    }
+    70% {
+        counter-increment: count 434;
+    }
+    80% {
+        counter-increment: count 496;
+    }
+    90% {
+        counter-increment: count 558;
+    }
+    100% { 
+        counter-increment: count 620;
+    }
+}
+
+.count2::after{
+        content: counter(count);
+        animation: numberCounters2 ease-in-out 0.5s 3 forwards;
+        counter-reset: count 0;
+}
+
+@keyframes numberCounters3{
+    0% {
+        counter-increment: count 0;
+    }
+    10% {
+        counter-increment: count 3;
+    }
+    20% {
+        counter-increment: count 6;
+    }
+    30% {
+        counter-increment: count 9;
+    }
+    40% {
+        counter-increment: count 11;
+    }
+    50% {
+        counter-increment: count 14;
+    }
+    60% {
+        counter-increment: count 17;
+    }
+    70% {
+        counter-increment: count 20;
+    }
+    80% {
+        counter-increment: count 21;
+    }
+    90% {
+        counter-increment: count 23;
+    }
+    100% { 
+        counter-increment: count 25;
+    }
+}
+
+.count3::after{
+        content: counter(count);
+        animation: numberCounters3 ease-in-out 0.5s 3 forwards;
+        counter-reset: count 0;
+}
+
+@keyframes numberCounters4{
+    0% {
+        counter-increment: count 0;
+    }
+    10% {
+        counter-increment: count 94;
+    }
+    20% {
+        counter-increment: count 188;
+    }
+    30% {
+        counter-increment: count 282;
+    }
+    40% {
+        counter-increment: count 376;
+    }
+    50% {
+        counter-increment: count 470;
+    }
+    60% {
+        counter-increment: count 564;
+    }
+    70% {
+        counter-increment: count 658;
+    }
+    80% {
+        counter-increment: count 752;
+    }
+    90% {
+        counter-increment: count 846;
+    }
+    100% { 
+        counter-increment: count 940;
+    }
+}
+
+.count4::after{
+        content: counter(count);
+        animation: numberCounters4 ease-in-out 0.5s 3 forwards;
+        counter-reset: count 0;
+}
+
+.sliderImg{
+    animation: sliderImg ease-in 10s infinite;
+    animation-delay: 1s;
+}
+
+@keyframes sliderImg{
+    0%{
+        background-image: url(https://crucio.riccardoborchi.it/wp-content/uploads/2019/06/slider1.jpg);
+    }
+    50%{
+        background-image: url(https://crucio.riccardoborchi.it/wp-content/uploads/2019/06/slider2.jpg);
+    }
+    100%{
+        background-image: url(https://crucio.riccardoborchi.it/wp-content/uploads/2019/06/slider3.jpg);        
+    }
+}

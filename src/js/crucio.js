@@ -15,6 +15,9 @@ import '../css/bodyContent12.css'
 import '../css/bodyContent13.css'
 import '../css/bodyContent14.css'
 import '../css/footer.css'
+import '../css/animation.css'
+
+import 'animate.css';
 import React from "react";
 import Header from './widgets/header';
 import BodyContent1 from './widgets/bodyContent1';

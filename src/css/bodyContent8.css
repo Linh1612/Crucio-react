@@ -1,6 +1,7 @@
 .body-content8{
-    height: 56rem;
+    height: 60rem;
     text-align: center;
+
 }
 
 .body-content8>.text-center h2{
@@ -38,6 +39,15 @@
     text-decoration: none;
     color: var(--text-color);
 }
+
+.body-content8>.taskbar > ul > li > a:hover{
+    color: var(--primary-color);
+}
+
+.body-content8>.taskbar > ul > li > a:focus{
+    color: #56007f;
+}
+
 
 .body-content8>.works{
     display: flex;
@@ -248,6 +258,30 @@
 }
 
 .body-content8>.works>.work-8>.bg-8:hover{
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-9{
+    width: 25%;
+    overflow: hidden;
+}
+
+
+.body-content8>.works>.work-9>.bg-9{
+    width: 100%;
+    background-image: url("https://crucio.riccardoborchi.it/wp-content/uploads/2017/03/work1.jpg");
+    background-size: cover;
+}
+
+.body-content8>.works>.work-9>.bg-9:hover .work-info,
+.body-content8>.works>.work-9>.bg-9:focus .work-info {
+    opacity: 0.8;
+    transition: ease-in 1s;
+    transform: scale(1.2);
+}
+
+.body-content8>.works>.work-9>.bg-9:hover{
     transition: ease-in 1s;
     transform: scale(1.2);
 }
